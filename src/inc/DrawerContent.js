@@ -52,7 +52,7 @@ class DrawerContent extends React.Component {
             sed minus, delectus tempora ut fugiat incidunt culpa. Vitae doloribus facilis
             architecto, quam tempora error accusamus alias iste.
           </p>
-          <a class="by" href="https://jeffdrumgod.com.br/" target="_blank">
+          <a className="by" href="https://jeffdrumgod.com.br/" target="_blank">
             By jeff_drumgod
           </a>
         </Drawer>
