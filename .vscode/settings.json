@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "javascript.validate.enable": false,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.useTabs": true,
+}

@@ -1,0 +1,39 @@
+{
+  "name": "rich-widget",
+  "description": "A simple model of the widget to add generic functionality in websites",
+  "version": "0.1.0",
+  "private": true,
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --mode development --content-base ./dist",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-polyfill-injector": "^3.0.2"
+  },
+  "dependencies": {
+    "antd": "^3.26.0",
+    "postmate": "^1.5.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
